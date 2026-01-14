@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+venv/
+env/
+
+# Test files (tidak perlu di deploy)
+test_*.py
+test_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset files (optional - uncomment jika tidak perlu)
+django/
+scikit-learn/
+snapshots/
+*.csv
+*.png
+
+# Keep model files dengan Git LFS
+# *.joblib akan di-track oleh LFS
