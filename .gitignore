@@ -33,7 +33,7 @@ Thumbs.db
 django/
 scikit-learn/
 snapshots/
-*.csv
+
 *.png
 
 # Keep model files dengan Git LFS
